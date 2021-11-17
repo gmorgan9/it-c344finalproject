@@ -3,6 +3,13 @@
     color: black;
 }
 
+.main-header {
+    text-align: center;
+    margin-top: .25em;
+    margin-bottom: .25em;
+    font-size: 3em;
+}
+
 .site-header{
     margin-left: 1em;
     margin-top: .25em;
@@ -10,9 +17,10 @@
 }
 
 .nav_bar {
-    width: 100%;
+    width: 50%;
+    margin:auto;
     height: 3em;
-    background-color: lightgray;
+    background-color: rgba(250, 135, 135, 0.274);
     text-align: center;
 }
 
@@ -36,6 +44,11 @@ p {
 h2 {
     margin-top: .5em;
     margin-left: 1.3em;
+}
+
+h3 {
+    margin-top: .5em;
+    margin-left: 1.75em;
 }
 
 .proreq {
