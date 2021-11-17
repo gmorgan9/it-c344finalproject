@@ -1,4 +1,47 @@
-ul {
-    text-decoration: none;
-    color: balck;
+* {
+    margin: 0;
+    color: black;
 }
+
+.site-header{
+    margin-left: 1em;
+    margin-top: .25em;
+    margin-bottom: .25em;
+}
+
+.nav_bar {
+    width: 100%;
+    height: 3em;
+    background-color: lightgray;
+    text-align: center;
+}
+
+.nav_bar li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 1.5em;
+    margin-top: 1em;
+}
+
+.nav_bar a {
+    text-decoration: none;
+}
+
+p {
+    margin-top: .75em;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+h2 {
+    margin-top: .5em;
+    margin-left: 1.3em;
+}
+
+.proreq {
+    margin-top: .25em;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+
