@@ -45,4 +45,4 @@ Some other information I would like to share about my project is how I could upd
 5. I then reloaded my apache2 server by using the command `sudo service apache2 restart` (this command would restart the server and show the updated web pages that were updated in VS code).
 ## Project Questions
 - How do you install apache2 (What commands did you use?)
-- - How do you install apache2 (What commands did you use?)
+ - How do you install apache2 (What commands did you use?)
