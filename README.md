@@ -36,10 +36,13 @@ I ended up completing the final project alone. I was not able to find a group of
 9. Once I got that cloned, I used the command `sudo service apache2 start` (this command allowed my website to be pushed live on my server).
 10. To access my webpage, you just need to be connected to the BYU Eduroam wifi and type in the IP address `10.25.90.143`. You will then see my webpage as shown in the image below.
 11. To take down my website, I used the command `sudo service apache2 stop` (this command will take down my instance of my website from my IP address, so you won’t see it again, so if you went to that IP address after i took it down, it will state that the `Page Not Found`).
-<br/><br/>
+
 Some other information I would like to share about my project is how I could update my website any time using VS code and what commands I used to update it on my live server. These steps include:
-I would update my code in VS code how I would like. 
-I would then commit and push my work to github (this was done in VS code which is linked to my github account).
-After seeing the changes in my github account, I would go to the terminal and pull the updated files to my apache server. 
-To pull the updated files over, I would use the command `git pull origin main` (this would pull the updated files from my git repository that was changed in VS code).
-I then reloaded my apache2 server by using the command `sudo service apache2 restart` (this command would restart the server and show the updated web pages that were updated in VS code).
+1. I would update my code in VS code how I would like. 
+2. I would then commit and push my work to github (this was done in VS code which is linked to my github account).
+3. After seeing the changes in my github account, I would go to the terminal and pull the updated files to my apache server. 
+4. To pull the updated files over, I would use the command `git pull origin main` (this would pull the updated files from my git repository that was changed in VS code).
+5. I then reloaded my apache2 server by using the command `sudo service apache2 restart` (this command would restart the server and show the updated web pages that were updated in VS code).
+## Project Questions
+- How do you install apache2 (What commands did you use?)
+- - How do you install apache2 (What commands did you use?)
