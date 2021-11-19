@@ -1,4 +1,4 @@
-# Project Write up
+# <div align="center"> Project Write up
 Garrett Morgan <br/>
 November 18th, 2021<br/>
 IT&C 344 - Operating Systems<br/>
