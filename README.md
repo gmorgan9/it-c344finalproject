@@ -45,4 +45,14 @@ Some other information I would like to share about my project is how I could upd
 5. I then reloaded my apache2 server by using the command `sudo service apache2 restart` (this command would restart the server and show the updated web pages that were updated in VS code).
 ## Project Questions
 - How do you install apache2 (What commands did you use?)
-  - How do you install apache2 (What commands did you use?)
+  - I was able to install apache2 on my server by using the command `sudo apt install apache2` (this command will install the latest version of apache2)
+- What files did it install on your system?
+  - When I installed apache2 on my system, the files that were installed included: apache2.conf, magic, envvars, and ports.conf. The folders that were installed include: conf-enabled, mods-enabled, sites-available, conf-available, mods-available, and sites-enabled. These all have their own specific responsibilities.
+- What files are responsible for making sure the apache2 application is running correctly? (What files are used to manage the apache2 service?)
+  - There is one file that is responsible for making sure the apache2 application is running and allows an admin to configure the apache2 service which includes: apache2.conf.
+- What files are used to define how apache2 works? (What’s in the configuration file?)
+  - The main configuration file is called apache2.conf. This file contains the configuration directives that give the server its instructions.
+- What other components are needed for apache2 to host a website?
+  - A few components that are needed for apache2 to host a website would be a server, which can be run on a raspberry pi in my case or any other system. Another component would be having the knowledge of apache2 and a web server.
+- How do you change ports for your website?
+  - To change the ports for your website, you would need to direct to the apache2 folder on your server. You would use the command `cd /etc/apache2` and then I would use the command `sudo nano ports.conf` to edit the ports.
